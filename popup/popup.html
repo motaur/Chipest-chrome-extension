@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+    <head>       		
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="popup.css">
+      <!--script src="../content_scripts/bootstrap.min.js"></script-->
+      <script src="../content_scripts/popper.min.js"></script>
+      <script src="../content_scripts/jquery-3.4.0.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">        	
+    </head>   
+
+    <body>
+      <!--search input panel-->
+      <div class="container">
+        <img src="../images/main_logo.png" style="width:200px;">
+        
+          <div class="custom-control custom-checkbox" style="float: right;">
+              <input type="checkbox" class="custom-control-input" id="ali" checked disabled>
+              <label class="custom-control-label" for="ali"><img src="../images/ali.png" style="width:80px;"></label>
+          </div>
+          <div class="custom-control custom-checkbox" style="float: right;">
+              <input type="checkbox" class="custom-control-input" id="ebay" checked>
+              <label class="custom-control-label" for="ebay"><img src="../images/ebay.png" style="width:50px;"></label>
+          </div>
+          
+          
+          <div class="input-group mb-3">
+              
+              <input class="form-control my-0 py-1 red-border" value="" id="expression" type="text" placeholder="Search" aria-label="Recipient's username" aria-describedby="button-addon2">
+              <div class="input-group-append">
+                <button id="search" class="btn btn-outline-secondary" type="button" ><i class="fa fa-search"></i></button>
+              </div>
+          </div>         
+    
+      <!--show search results here-->
+      <div class="container">
+          <div class="row"></div>
+      </div>  
+      
+      
+      <script src="popup.js"></script>
+
+      <footer class="footer mt-auto py-1">
+         <span class="text-muted">© 2019</span>
+      </footer>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+.card
+{
+    background-color: #acaaaa;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 5px;
+    
+}
+
+.card-text
+{
+    font-size: small;
+}
+
+.footer
+{
+    color: darkgrey;
+    font-size: small;
+    
+}
+
+body
+{
+  width:600px;    
+}
